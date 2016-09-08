@@ -1,0 +1,38 @@
+body,html{
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+header p{
+  width: 30%;
+  float: left;
+}
+header span{
+  width: 30%
+  float: left;
+
+}
+header img{
+  float: left;
+}
+nav{
+}
+header ul{
+
+}
+
+header li{
+  display: inline-block;
+  width: 10%;
+  padding: 10px;
+  box-sizing: border-box;
+}

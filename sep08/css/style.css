@@ -24,8 +24,8 @@ img{
 #box{
   background-color: white;
   position: absolute;
-  width: 400px;
-  height: 400px;
+  /*width: 400px;
+  height: 400px;*/
   /*top: calc(50% - calc(400px / 2));
   left: calc(50% - calc(400px / 2));*/
   top: 50%;
@@ -53,8 +53,8 @@ h2, p{
 }
 /*EVERYTHING ABOVE THIS DOESNT MATTER!!!*/
 
-img{
+/*img{
     position: absolute;
     top: calc(50% - calc(150px / 2));
     left: calc(50% - calc(150px / 2));
-}
+}*/
