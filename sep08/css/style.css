@@ -7,6 +7,35 @@ img{
   left: calc(50% - calc(150px / 2));
   top: calc(50% - calc(150px / 2));
 }*/
+
+#overlay{
+  /*width: 250px;
+  height: 250px;*/
+  background-color: hsla(0, 0%, 0%, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*top: calc(50% - calc(250px / 2));
+  left: calc(50% - calc(250px / 2));*/
+}
+
+#box{
+  background-color: white;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: calc(50% - calc(400px / 2));
+  left: calc(50% - calc(400px / 2));
+
+
+  text-align: center;
+  font-family: Comic Sans MS;
+}
+
+
+
 img{
     position: absolute;
     top: calc(50% - calc(150px / 2));
