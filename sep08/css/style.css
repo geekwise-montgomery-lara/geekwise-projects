@@ -29,9 +29,14 @@ img{
   top: calc(50% - calc(400px / 2));
   left: calc(50% - calc(400px / 2));
 
-
+   /*EVERYTHING AFTER THIS DOESNT MATTER!!!*/
   text-align: center;
   font-family: Comic Sans MS;
+  background-image: url("http://i0.wp.com/freepngimages.com/wp-content/uploads/2014/11/ten-party-balloons.png?fit=546%2C445");
+  background-size: 390px;
+  background-repeat: no-repeat;
+  color: rgb(240, 238, 61);
+  font-size: 20px;
 }
 
 
