@@ -1,0 +1,52 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/background.jpg");
+}
+
+
+header{
+    padding-left: 
+}
+
+nav{
+  color: white;
+  width: 90%;
+}
+
+h1{
+    display: inline-block;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+h1 img{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.thing{
+    width: inherit;
+    color: white;
+}
+h1 p{
+    font-size: 10px;
+    color: grey;
+    width: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    display: inline-block;
+    float: right;
+    padding-top: 30px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 50px;
+}
