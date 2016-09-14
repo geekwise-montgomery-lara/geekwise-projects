@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    height: 500px;
+}
+
+section > div{
+    flex: 1;
+
+
+    text-align: center;
+    color: white;
+}
+section > div:nth-child(2){
+    display: flex;
+}
+
+section > div:nth-child(2) div{
+    flex: 1;
+}
+
+
+section div.div1{
+    background-color: hsl(345, 85%, 72%);
+}
+section div.div2{
+    background-color: hsl(22, 98%, 66%);
+    /*flex: 4;*/
+}
+section div.div3{
+    background-color: hsl(290, 93%, 65%);
+}
+section div.div4{
+    background-color: hsl(210, 93%, 65%);
+}
