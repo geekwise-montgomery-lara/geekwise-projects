@@ -30,11 +30,11 @@ section .div2{
 }
 section .div3{
     background-color: hsl(162, 31%, 43%);
-    flex: 2;
+    flex: 1;
 }
 .div4{
     background-color: hsl(64, 75%, 65%);
-    flex: 1
+    flex: 1;
 }
 .div5{
     background-color: hsl(0, 0%, 70%);
