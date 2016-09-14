@@ -5,37 +5,38 @@ body{
 
 section{
     display: flex;
-    align-items: stretch;
     flex-direction: column;
-    height: 500px;
+    height: 100vh;
 }
 
-section > div{
-    flex: 1;
 
 
-    text-align: center;
-    color: white;
-}
-section > div:nth-child(2){
+/*section div div:nth-of-type(1){
+    background-color: hsl(119, 100%, 70%);
+}*/
+.container{
     display: flex;
+    /*flex-direction: row-reverse;*/
+    flex: 3;
 }
-
-section > div:nth-child(2) div{
+section .div1{
+    background-color: hsl(199, 100%, 40%);
     flex: 1;
 }
 
-
-section div.div1{
-    background-color: hsl(345, 85%, 72%);
+section .div2{
+    background-color: hsl(118, 61%, 24%);
+    flex: 1;
 }
-section div.div2{
-    background-color: hsl(22, 98%, 66%);
-    /*flex: 4;*/
+section .div3{
+    background-color: hsl(162, 31%, 43%);
+    flex: 2;
 }
-section div.div3{
-    background-color: hsl(290, 93%, 65%);
+.div4{
+    background-color: hsl(64, 75%, 65%);
+    flex: 1
 }
-section div.div4{
-    background-color: hsl(210, 93%, 65%);
+.div5{
+    background-color: hsl(0, 0%, 70%);
+    flex: .2;
 }
