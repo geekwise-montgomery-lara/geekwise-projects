@@ -2,17 +2,42 @@ body{
     margin: 0;
     padding: 0;
     color: hsl(278, 60%, 47%);
+    font-family: sans-serif;
 }
 /*nav, header, section{
     display: flex;
 }*/
-ul li{
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    float: right;
-    padding: 0 30px;
+nav{
+    margin: 0;
 }
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+}
+ul li{
+    padding: 0 30px;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+li:nth-of-type(4){
+    border: solid blue 3px;
+    border-radius: 5%;
+}
+
+
 span{
-    
+    font-size: 2em;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80vh;
 }
