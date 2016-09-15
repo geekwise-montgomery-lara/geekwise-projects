@@ -40,4 +40,16 @@ section{
     flex-wrap: wrap;
     flex-direction: column;
     height: 80vh;
+    padding: 0 30%;
+    text-align: center;
+}
+
+div{
+    padding: 10px 20px;
+    background-color: hsl(278, 60%, 47%);
+    border-radius: 10%;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
