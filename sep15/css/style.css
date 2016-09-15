@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: hsl(278, 60%, 47%);
+}
+/*nav, header, section{
+    display: flex;
+}*/
+ul li{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    float: right;
+    padding: 0 30px;
+}
+span{
+    
+}
