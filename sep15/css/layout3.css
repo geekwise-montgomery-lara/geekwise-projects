@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.div1{
+    background-color: hsl(323, 54%, 52%);
+    flex: 1;
+}
+.div2{
+    background-color: hsl(265, 23%, 21%);
+    flex: 2;
+}
