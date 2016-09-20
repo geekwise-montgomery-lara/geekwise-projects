@@ -1,0 +1,92 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'; /*http://fontawesome.io/icon/*/
+
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #7E57C2;
+    background-color: #EEE8F6;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+nav *{
+    margin: 0;
+    padding: 0;
+}
+nav h1{
+}
+/*nav h1{
+    margin-right: auto;
+}*/
+nav ul{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 80%;
+}
+nav ul a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#hero{
+    text-align: center;
+    position: relative;
+    padding: 50px 0 250px;
+    overflow: hidden;
+}
+#hero img{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate3d(-50%, 50%, 0);
+
+    width: 222px;
+    height: 435px;
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#features{
+    padding: 0 10%;
+    margin: 5% 0;
+}
+
+hr {
+    width: 7%;
+    color: #7E57C2;
+}
+
+h2{
+    text-align: center;
+    font-weight: 100;
+}
+
+.fa{
+    font-size: 20px;
+    border-radius: 100%;
+    border: solid #7E57C2 2px;
+    padding: 2.6%;
+}
+
+#Rich{
+    display: flex;
+    margin: 5% 0;
+}
+
+#Rich div{
+    margin: 0 10px;
+}
