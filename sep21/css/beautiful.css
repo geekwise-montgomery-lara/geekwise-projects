@@ -1,0 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #7E57C2;
+    background-color: #EEE8F6;
+    font-family: 'Raleway', sans-serif;
+}
+
+#beautiful{
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5%;
+}
+hr{
+    color: #7E57C2;
+    width: 5%;
+}
+#beautiful p{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+#beautiful img{
+    width: 500px;
+}
+
+
+#footer{
+    display: flex;
+    padding: 0 10%;
+    margin-bottom: 1%;
+}
+#footer div{
+    text-align: center;
+}
