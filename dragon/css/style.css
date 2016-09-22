@@ -1,8 +1,25 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+
 body{
     background-image: url("http://media.moddb.com/images/games/1/16/15448/teaser_desktop_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    color: hsl(155, 47%, 55%);
+    font-family: 'Lobster', cursive;
 }
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
 
 table{
     width: 100%;
@@ -13,4 +30,12 @@ td{
     height: 100px;
     background-color: white;
     margin: 5px;
+}
+
+
+.text{
+    text-align: center;
+}
+.text form{
+    display: block;
 }

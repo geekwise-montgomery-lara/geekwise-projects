@@ -1,0 +1,80 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+
+body{
+    background-image: url("http://media.moddb.com/images/games/1/16/15448/teaser_desktop_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: hsl(155, 47%, 55%);
+    font-family: 'Lobster', cursive;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: hsl(282, 100%, 76%);
+}
+
+
+nav{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+header nav ul{
+    float: right;
+    width: 30%;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 5%;
+}
+header nav h1{
+    width: 20%;
+    float: left;
+}
+
+
+aside{
+    padding: 5% 10%;
+    float: left;
+}
+aside ul li{
+
+}
+
+
+#container{
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+#container div{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 5px;
+    float: left;
+}
+
+
+.text{
+    height: 100%;
+    text-align: center;
+}
+.compass{
+    text-align: center;
+}
+.compass span a{
+    padding: 9% 5%;
+}
+
+
+footer{
+    float: right;
+    margin-top: 26%;
+}
