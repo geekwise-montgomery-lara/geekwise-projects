@@ -1,0 +1,107 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-image: url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+}
+header p{
+    width: 35%;
+    margin: auto;
+}
+header h3{
+    font-weight: 400%;
+}
+header div{
+    background-color: hsl(0, 100%, 62%);
+    padding: 2% 3%;
+    width: 10%;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    padding: 2% 2%;
+}
+nav ul{
+    justify-content: flex-end;
+    width: 79%;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 1% 3%;
+}
+
+
+#box1{
+    padding: 3% 20%;
+    display: flex;
+}
+#box1 aside, article{
+    width: 40%;
+}
+
+
+#box2{
+    width: 100%;
+    display: flex;
+}
+#box2 .container1{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#box2 .boi{
+    margin: 0 3%;
+}
+#box2 .boi:nth-of-type(1){
+    text-align: right;
+}
+#box2 .boi img{
+    width: 20em;
+
+}
+#box2 .boi .button{
+    background-color: hsl(0, 100%, 62%);
+    padding: 2% 3%;
+    width: 40%;
+}
+#box2, .container1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#box3 .container2{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#box3 .kiddo{
+    margin: 0 3%;
+}
+#box3 .kiddo:nth-of-type(1){
+    text-align: right;
+}
+#box3 .kiddo img{
+    width: 20em;
+
+}
+#box3, .container1::after{
+    content: "";
+    display: block;
+    clear: both;
+}

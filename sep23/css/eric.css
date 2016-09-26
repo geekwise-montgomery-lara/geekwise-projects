@@ -36,7 +36,8 @@ section a{
     text-decoration: none;
 }
 section img{
-    width: 30%;
+    width: 17%;
+    border: solid 2px #7E57C2;
     border-radius: 100%;
 }
 section p{

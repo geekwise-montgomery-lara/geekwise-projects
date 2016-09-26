@@ -7,7 +7,7 @@ body{
 }
 
 header{
-
+    background-image: 
 }
 
 
@@ -21,7 +21,7 @@ nav h1{
 nav ul{
     float: right;
     padding: 1% 0;
-    width: 10%;
+    width: 20%;
 }
 nav ul li{
     display: inline-block;
@@ -29,7 +29,8 @@ nav ul li{
     padding: 3%;
 }
 nav ul li:hover{
-    
+    background-color: gold;
+    cursor: pointer;
 }
 
 
