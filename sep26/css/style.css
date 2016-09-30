@@ -77,11 +77,20 @@ nav ul li{
     background-color: hsl(0, 100%, 62%);
     padding: 2% 3%;
     width: 40%;
+    border-radius: 5%;
+}
+#box2 .boi .button1{
+    float: right;
 }
 #box2, .container1::after{
     content: "";
     display: block;
     clear: both;
+}
+
+
+#box3{
+    margin: 4% 0;
 }
 #box3 .container2{
     width: 80%;
@@ -93,15 +102,83 @@ nav ul li{
 #box3 .kiddo{
     margin: 0 3%;
 }
+#box3 .container2 .kiddo div{
+    margin: 2vh 0;
+}
 #box3 .kiddo:nth-of-type(1){
     text-align: right;
 }
-#box3 .kiddo img{
-    width: 20em;
-
+#box3 .container2 .kiddo img{
+    width: 28%;
+    border-radius: 100%;
+    border: solid 6px #AEC9E6;
+}
+#box3 .container2 .kiddo .david{
+    margin-right: -30%;
+}
+#box3 .container2 .kiddo .david2{
+    margin-left: -30%;
+}
+#box3 .container2 .kiddo:nth-of-type(1) img{
+    float: right;
+}
+#box3 .container2 .kiddo:nth-of-type(2) img{
+    float: left;
 }
 #box3, .container1::after{
     content: "";
     display: block;
     clear: both;
+}
+
+
+#box4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+
+    background-image: url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#box4 h1{
+    color: white;
+    font-weight: bolder;
+}
+#box4 h4{
+    color: grey;
+    margin: 5% 0;
+}
+#box4 div{
+    background-color: hsl(0, 100%, 62%);
+    padding: 3vh 5%;
+    width: 10%;
+    margin: auto;
+    color: white;
+    border-radius: 5%;
+    margin: 3vh 0;
+}
+
+
+footer{
+    padding: 10% 0;
+}
+footer div{
+    display: flex;
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+footer ul li{
+    padding: 10% 5%;
+    color: gray;
+}
+footer ul li:nth-of-type(2){
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
 }

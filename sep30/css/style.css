@@ -1,0 +1,189 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url(../img/home-slider-1-slide-3.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-size: 15em;
+    margin-top: 0;
+    padding-top: 15%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 95%;
+    padding: 1% 4%;
+    background-color: hsla(0, 0%, 17%, 0.76);
+}
+header nav img{
+    height: 40px;
+    width: auto;
+}
+header nav ul{
+    width: 60%;
+}
+header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+header ul{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding-left: 35%;
+}
+header ul li{
+    width: 5%;
+    float: left;
+    font-size: 2.5em;
+}
+
+#box1{
+    padding: 0 3%;
+}
+#box1,#box2,#box3,#box4 h1{
+    font-size: 3em;
+}
+#box1,#box2,#box4 hr{
+    width: 80%;
+    margin: auto;
+}
+#box1 .container{
+    display: flex;
+    margin-top: 5%;
+}
+#box1 .container div{
+    width: 23%;
+    margin: 0 7px;
+}
+#box1 .container div .bold{
+    font-size: 1.2em;
+    color: #6E7779;
+}
+#box1 .container div p{
+    color: #A2A3A8;
+}
+#box1 .container div .button{
+    color: #5BA0D0;
+}
+#box1 .container div .button i{
+    margin-left: 30px;
+}
+#box1 .container div .button:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
+#box2{
+    padding: 0 3%;
+}
+#box2 .container2{
+    display: flex;
+    margin-top: 5%;
+}
+#box2 .container2 .boi{
+    width: 23%;
+    margin: 0 7px;
+}
+#box2 .container2 .boi div .bold{
+    font-size: 1.2em;
+    color: #6E7779;
+}
+#box2 .container2 .boi div p{
+    color: #A2A3A8;
+}
+#box2 .container2 .boi .button{
+    color: #5BA0D0;
+}
+#box2 .container2 .boi .button i{
+    margin-left: 30px;
+}
+#box2 .container2 .boi .button:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
+#box3{
+    display: flex;
+    font-size: 1.3em;
+}
+#box3 hr{
+    width: 100%;
+}
+#box3 div{
+    flex: 1;
+}
+#box3 .death{
+    padding: 0 10%;
+}
+#box3 div img{
+    width: 100%;
+}
+#box3 .mini{
+    color: white;
+    background-color: #5BA0D0;
+}
+#box3 .drive .bold{
+    font-size: 1.2em;
+    color: #6E7779;
+}
+#box3 .drive p{
+    color: #A2A3A8;
+}
+#box3 .drive .button{
+    color: #5BA0D0;
+}
+#box3 .boi .button i{
+    margin-left: 30px;
+}
+#box3 .boi .button:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
+/*#box4{
+    padding: 0 3%;
+}
+#box4 hr{
+    width: 100%;
+}
+#box4 .cup{
+    display: flex;
+    margin-top: 3%;
+}
+#box4 .cup input{
+    width: 50%;
+}
+#box4 textarea{
+    width: 60%;
+    height: 105px;
+}
+#box4 .button{
+    font-size: 2em;
+    color: white;
+    padding: 3% 2%;
+    background-color: #5BA0D0;
+    width: 35%;
+    float: right;
+}
+#box4 .button:hover{
+    border-color: black;
+}*/

@@ -1,0 +1,35 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:200';
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+section{
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    border-radius: 1%;
+    padding: 10vh 0;
+    margin-top: 20vh;
+}
+section img{
+    border-radius: 100%;
+}
+
+
+footer{
+    color: white;
+}
