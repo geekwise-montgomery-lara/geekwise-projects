@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 50vw;
+    height: 100vh;
+    float: left;
+    padding-right: 2em;
+}
+div{
+    padding: 2em;
+    -webkit-column-width: value;
+    -moz-column-width: value;
+    column-width: 100px;
+}

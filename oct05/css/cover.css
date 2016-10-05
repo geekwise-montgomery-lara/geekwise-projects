@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    width: calc(100vw - 49.9px);
+    height: calc(100vh - 30px);
+    border: solid 1em firebrick;
+    display: flex;
+    background-color: hsl(52, 100%, 53%);
+}
+header h1{
+    margin: auto;
+}
+
+section{
+    padding: 5% 8%;
+    column-width: 300px;
+}
+section img{
+    width: 40%;
+    border-radius: 100%;
+    float: left;
+    shape-outside: circle();
+}

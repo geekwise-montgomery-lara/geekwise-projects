@@ -1,0 +1,37 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  margin: 0;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: cornsilk;
+}
+nav a{
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: firebrick;
+}
+#cta{
+  background-image: url(http://unsplash.it/1000/300?image=600);
+  height: 300px;
+  width: auto;
+  display: flex;
+}
+#cta h1{
+  font-size: 15vw;   
+  margin: auto;
+  color: deepskyblue;
+}
+footer{
+  display: flex; 
+}
+footer p{
+  margin: 0 auto 0 0;
+}
