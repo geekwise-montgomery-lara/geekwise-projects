@@ -12,6 +12,13 @@ body{
 }
 
 
+header{
+    background-image: url(../img/home-slider-1-slide-3.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
 nav{
   display:flex;
   align-items:center;
@@ -172,3 +179,55 @@ header h2{
 #box1 .container div i{
     margin-left: 20px;
 }
+
+
+#box2{
+    background-image: url(../img/bg-image-1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+#box2 h1{
+    font-size: 4em;
+    font-weight: 1000;
+    padding: 0 3%;
+    margin: 0;
+}
+#box2 .bluehr{
+    display: flex;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 0 3%;
+}
+#box2 .bluehr div{
+    width: 100px;
+    height: 5px;
+    background-color: #29C0FF;
+}
+#box2 .bluehr .hr{
+    width: 87%;
+    height: 1px;
+    margin-top: 4px;
+    background-color: rgba(54, 49, 52, 0.1);
+}
+#box2 .container2{
+    width: 50%;
+    float: right;
+}
+#box2 .progress{
+    color: #A4AFB1;
+    width:80%;
+    margin: 6% 0;
+}
+#box2 .progress progress{
+    width: 100%;
+}
+#box2 .progress .percent{
+    display: flex;
+    justify-content: space-between;
+}
+#box2::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*suck dick*/

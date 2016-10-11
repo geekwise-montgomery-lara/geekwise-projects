@@ -1,0 +1,44 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:200';
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#models{
+    background-image: url(../img/bg-image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 15vw 5vw 15vw 50%;
+}
+h2 + hr{
+    height: 0;
+    width: 10vw;
+    border: 3px solid hsl(198, 100%, 58%);
+}
+hr{
+    margin: 0;
+    border: none;
+    height: 1px;
+    background-color: hsl(0, 0%, 90%);
+}
+#models ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#models li p{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+#models progress{
+    width: 100%;
+    border: none;
+    height: 8px;
+}
+#models progress::-moz-progress-bar{
+    background-color: hsl(198, 100%, 58%);
+}
