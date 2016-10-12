@@ -1,0 +1,98 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:200';
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h2 + hr{
+    width: 15vw;
+    height: 3px;
+    background-color: hsl(198, 100%, 58%);
+}
+hr{
+    border: none;
+    margin: 0;
+    height: 1px;
+    background-color: hsla(0, 0%, 90%, 1);
+}
+form{
+    margin-top: 30px;
+}
+form div{
+    display: flex;
+    padding: 0;
+    border: none;
+    margin-bottom: 10px;
+}
+form div:first-child legend{
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form div:first-child legend:last-child{
+    margin-right: 0;
+}
+form legend span{
+    position: relative;
+    top: 27px;
+    transition: all 500ms ease-in-out;
+}
+form legend span.placeholder{
+    top: 0px;
+}
+form input, form textarea{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 2;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: hsla(0, 0%, 90%, 1);
+}
+form textarea{
+    flex: 1;
+    margin-right: 20px;
+}
+
+form button[type="button"]::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(
+        to bottom,
+        hsl(198, 100%, 58%),
+        hsl(198, 100%, 70%)
+    );
+    /*background-color: red;*/
+    transition: opacity 500ms ease-in-out;
+    z-index: -1;
+}
+form button[type="button"]{
+    width: 20vw;
+    padding: 20px;
+    align-self: flex-end;
+    color: white;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 2;
+    background-image: linear-gradient(
+        to bottom,
+        hsl(198, 100%, 0%),
+        hsl(198, 100%, 0%)
+    );
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+form button[type="button"]:hover::before{
+    opacity: 0;
+}
