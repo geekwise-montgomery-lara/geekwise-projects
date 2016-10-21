@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+@font-face {
+  font-family: 'BrushScript';
+  src: url('http://matthewhigley.com/fonts/BrushScriptStd.eot');
+  src: url('http://matthewhigley.com/fonts/BrushScriptStd.eot?#iefix') format('embedded-opentype'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.woff') format('woff'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.ttf')  format('truetype'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.svg#eb21f6604ba28d5573abad1c01255830') format('svg');
+  font-style:   normal;
+  font-weight:  400;
+}
+@font-face {
+  font-family: 'Fraktur';
+  src: url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.eot');
+  src: url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.eot?#iefix') format('embedded-opentype'),
+       url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.woff') format('woff'),
+       url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.ttf')  format('truetype'),
+       url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.svg#f78369fb7f540f355d128fc492e4218d') format('svg');
+  font-style:   normal;
+  font-weight:  400;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #660000;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+}
+main>section{
+  padding: 0 5%;
+}
+p{
+  line-height:150%;
+}
+.left{
+  float:left;
+  width:60%;
+}
+.right{
+  float:right;
+  width:40%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.shadow{
+    color: white;
+    font-family: 'BrushScript';
+    text-shadow: -1px 0 #660000,0 1px #660000,1px 0 #660000,0 -1px #660000;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+body > section{
+    width: 64vw;
+    margin: 3vw auto;
+    background-color: #FEFFEF;
+    border: solid black 4px;
+}
+section header{
+    width: 100%;
+}
+header .boi{
+    display: flex;
+    border-bottom: solid black 4px;
+    font-family: 'Fraktur';
+    color: #D0A700;
+    text-shadow: -1px 0 #660000,0 1px #660000,1px 0 #660000,0 -1px #660000;
+}
+header .boi div{
+    flex: 1;
+    font-size: 2.6em;
+    text-align: center;
+}
+header .boi img{
+    flex: 3;
+    border-left: solid black 3px;
+
+}
+header nav{
+    width: 100%;
+    padding: 3% 2%;
+}
+header nav ul{
+    width: 61vw;
+    display: flex;
+    border-top: dotted #B5B5AA;
+    border-bottom: dotted #B5B5AA;
+    padding: 0;
+    list-style-type: none;
+    color: white;
+    text-shadow: -1px 0 #660000,0 1px #660000,1px 0 #660000,0 -1px #660000;
+}
+header nav ul li{
+    font-family: 'BrushScript';
+    margin: auto;
+    padding: 1vw 0;
+    font-size: 1.5em;
+}
+header nav ul li:hover{
+    cursor: pointer;
+    text-shadow: 3px 2px 7px #660000;
+}
+
+
+#home::after{
+  content:'';
+  display:block;
+  clear:both;
+}
+#home h3,h4{
+  font-family:BrushScript;
+  text-shadow: -1px 0 #660000,0 1px #660000,1px 0 #660000,0 -1px #660000;
+}
+#home h3{
+  color:#FEFFEF;
+  font-size:35px;
+}
+#home section>div{
+  padding:20px;
+}
+#home .left div:nth-of-type(1)::after{
+  clear:both;
+  content:'';
+  display:block;
+}
+#home .left img{
+  float:right;
+  border-radius: 100%;
+  shape-outside:circle();
+  -webkit-shape-outside:circle();
+}
+#home .right div{
+  position:relative;
+  margin-top:50px;
+  text-align:center;
+}
+#home .right>div{
+  border:2px solid black;
+  border-radius: 50px;
+}
+#home .right div:nth-of-type(2) div{
+  display:flex;
+  justify-content:space-between;
+}
+#home .right div h4{
+  color:#D2A800;
+  background-color:#FEFFEF;
+  display:inline-block;
+  position:absolute;
+  top:-56px;
+  left:20px;
+  padding:5px;
+  font-size:24px;
+}
+#home .right a{
+  color:#660000;
+}
+
+
+#history{
+    padding: 0 5%;
+}
+#history::after{
+  content:'';
+  display:block;
+  clear:both;
+}
+#history .left img{
+  shape-outside:circle();
+  -webkit-shape-outside:circle();
+}
+#history .left img:nth-of-type(1){
+  float:right;
+}
+#history .left img:nth-of-type(2){
+  float:left;
+}
+#history .left h3, #history .left a{
+  font-family:BrushScript;
+  text-shadow: -1px 0 #660000,0 1px #660000,1px 0 #660000,0 -1px #660000;
+  color:#FEFFEF;
+}
+#history .left h3{
+  font-size:35px;
+}
+#history .left a{
+  text-decoration:none;
+}
+#history .right{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+  height:922px;
+}
+
+
+#meal{
+    padding: 0 5%;
+}
+#meal .head{
+    display: flex;
+    justify-content: space-between;
+    margin: 6% 0;
+}
+#meal .generic{
+    border: solid 2px#660000;
+    border-radius: 2%;
+    padding: 3% 2%;
+    text-align: center;
+    position: relative;
+}
+#meal .container{
+    display: flex;
+}
+#meal .container .generic{
+    width: 40%;
+    padding: 2vw 2%;
+}
+#meal .container > .generic{
+    margin: 3vw 3%;
+}
+#meal .generic .title{
+    font-size: 1.5em;
+    background-color: #FEFFEF;
+    position: absolute;
+    top: -15px;
+    left: 15px;
+}
+#meal .generic p{
+    margin: 0;
+    font-size: 11px;
+    line-height: 20px;
+}
+#meal .foot{
+    text-align: center;
+    font-size: 11px;
+}
+#meal .back{
+    cursor: pointer;
+}
+
+
+#news{
+    margin-bottom: 3%;
+}
+#news .headline{
+    width: 90%;
+    text-align: right;
+    background-image: linear-gradient(to left, hsla(0, 100%, 50%, 0.4) , #FEFFEF);
+    padding: 5px 2%;
+    font-size: 1.5em;
+    margin: auto;
+    border-bottom: dotted #B5B5AA;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    font-size: 11px;
+    color: #333333;
+}
+#news .info .anon{
+    border-bottom: solid 2px #333333;
+    padding: 17.5px 0;
+}
+#news .info .date{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+    font-weight: 900;
+}
+.top{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+}
+#news .thingy{
+    width: 90%;
+    text-align: right;
+    background-image: linear-gradient(to left, hsla(0, 100%, 50%, 0.4) , #FEFFEF);
+    padding: 1% 2%;
+    font-size: 1.5em;
+    margin: auto;
+    border-bottom: dotted #B5B5AA;
+}
+#news .top:hover{
+    cursor: pointer;
+}
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#form .info .text{
+    margin: 2% 22%;
+}
+#form .info .text input{
+    margin: 2% 2%;
+}
+#form .info .anon2{
+    text-align: center;
+    padding: 4vw 0;
+}
+#form .info .kid{
+    width: 105%;
+    margin-left: -5%;
+}

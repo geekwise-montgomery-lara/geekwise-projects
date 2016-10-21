@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header{
+    height: 130vh;
+    color: white;
+    background-image: url(../img/slide-1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 139%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6D90A3;
+    position: fixed;
+    width: 100%;
+    height: 40.6px;
+}
+header nav img{
+    width: 100px;
+    height: 20px;
+    padding: 5% 5%;
+    padding-top: 10px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding: none;
+    margin: 0;
+    height: inherit;
+}
+header nav ul li{
+    height: inherit;
+    padding: 10px 10px;
+}
+header nav ul li:hover{
+    background-color: #27B8D1;
+    transition: all 600ms ease-in-out;
+    cursor: pointer;
+}
+header h1{
+    margin: 0;
+    padding: 0 3%;
+    padding-top: 3%;
+    font-size: 16em;
+    text-transform: uppercase;
+}
+header h5{
+    font-size: 2em;
+    margin: 0;
+    padding: 0 5%;
+}
+header div{
+    padding: 30px 51px;
+    background-color: #27B8D1;
+    width: 7vw;
+    margin: 3% 5%;
+}
+header div:hover{
+    background-color: white;
+    color: black;
+    transition: all 600ms ease-in-out;
+    cursor: pointer;
+}
