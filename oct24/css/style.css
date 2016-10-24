@@ -1,0 +1,55 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(8, 95px) /*250px 150px 200px 100px*/;
+    grid-template-areas:
+        'header header header header header header header header header'
+        'aside aside main main main main main main ad'
+        'aside aside main main main main main main ad'
+        'aside aside main main main main main main ad'
+        'aside aside main main main main main main ad2'
+        'aside aside main main main main main main ad2'
+        'aside aside main main main main main main ad2'
+        'foot foot foot foot foot foot foot foot foot'
+    ;
+    /*grid-gap: 10px;*/
+    margin: 0;
+    padding: 0;
+}
+
+
+.a{
+    grid-area: header;
+    background-color: hsl(158, 100%, 80%);
+    /*grid-column: span 2;*/
+}
+.b{
+    grid-area: aside;
+    background-color: hsl(12, 100%, 80%);
+    /*grid-column: 1 / span 3;
+    grid-row: 2 / span 3;*/
+}
+.c{
+    grid-area: main;
+    background-color: hsl(291, 100%, 80%);
+    /*grid-column: 2;
+    grid-row: 3;*/
+}
+.d{
+    grid-area: foot;
+    background-color: hsl(82, 100%, 80%);
+    /*grid-column: 1;
+    grid-row: 1;*/
+}
+.e{
+    grid-area: ad;
+    background-color: hsl(261, 52%, 35%);
+    /*grid-column: 1;
+    grid-row: 1;*/
+}
+.f{
+    grid-area: ad2;
+    background-color: hsl(95, 35%, 53%);
+    /*grid-column: 1;
+    grid-row: 1;*/
+}
