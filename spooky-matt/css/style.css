@@ -1,0 +1,72 @@
+html{
+    background-image: url(../img/headbg.jpg), url(../img/bobybg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat, repeat-x;
+    background-color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: cornsilk;
+}
+body > div:first-child{
+  position: relative;
+    /*background-image: url(../img/pictop.jpg);*/
+    /*background-repeat: no-repeat;
+    background-position: right bottom;*/
+}
+body > div:first-child .pump{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+header{
+
+}
+
+
+section{
+    width: 65%;
+    float: left;
+    background-image: url(../img/leftbg.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+aside{
+    width: 35%;
+    float: right;
+    background-image: url(../img/rightbg.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+
+footer{
+    background: hsl(9, 83%, 9%);
+    padding: 50px 0;
+}
+footer .container{
+    position: relative;
+    background-image: url(../img/picbottom.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+footer .container .pump{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main::after{
+    content: "";
+    display: block;
+    clear: both;
+}

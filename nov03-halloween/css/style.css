@@ -1,0 +1,142 @@
+html{
+    background-image: url(../img/headbg.jpg), url(../img/bobybg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat, repeat-x;
+    background-color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: cornsilk;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 800px;
+    position: relative;
+}
+.container.pad{
+    padding-bottom: 70px;
+}
+
+main section{
+    width: 65%;
+    float: left;
+    background-image: url(../img/leftbg.jpg), url(../img/bobybg.jpg);
+    background-position: right top, right top;
+    background-repeat: no-repeat;
+}
+main aside{
+    width: 35%;
+    float: right;
+    background-image: url(../img/rightbg.png), url(../img/bobybg.jpg);
+    background-position: left top, left top;
+    background-repeat: no-repeat;
+}
+
+
+#mega{
+    background-color: hsl(9, 83%, 9%);
+}
+#mega .container{
+    display: flex;
+}
+footer{
+    padding: 0 360px;
+}
+
+main::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bs{
+    position: absolute;
+}
+.bs:first-child{
+    right: 0;
+}
+.bs:last-child{
+    right: 12px;
+    bottom: 0;
+}
+
+
+/*Astectic things that I added extra*/
+/*header .container, nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header .container{
+    padding: 3% 0;
+}
+nav ul li{
+    padding: 4% 6%;
+    background-image: radial-gradient();
+}*/
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ main section p img{
+    float: left;
+}
+
+
+@media screen and (max-width: 799px) {
+    aside{
+        display: none;
+    }
+    .container, main section, #mega div{
+        width: 100%;
+    }
+    #mega .container{
+        display: block;
+    }
+    h4{
+        margin-top: 0;
+    }
+    footer{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .container{
+        width: 100%;
+    }
+    main{
+        display: block;
+    }
+    main section p img{
+       width: 100%;
+   }
+   main section p:nth-of-type(2){
+       margin-bottom: 0;
+      float: none;
+      width: 100%;
+      background-image: none;
+    }
+    #mega .container{
+        display: block;
+    }
+    footer{
+        padding: 0;
+    }
+}
+/*Extra*/
+@media screen and (max-width: 320px){
+    body *{
+        display: none;
+    }
+    body{
+        background-image: url();
+    }
+}
