@@ -8,7 +8,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 hr{
-    width: 85%;
+    width: 80%;
     height: 0px;
     border: solid hsla(0, 0%, 20%, 0.71) 1px;
     margin: 5vw auto;
@@ -59,6 +59,7 @@ a{
 }
 #info p{
     width: 20%;
+    font-size: .99em;
 }
 #info hr{
     width: 60%;
@@ -80,16 +81,18 @@ a{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    width: 100%;
 }
 #skills div{
     width: 40%;
 }
 #skills div p{
-    color: #161616;
+    color: whitesmoke;
+    opacity: 0;
     transition: all 900ms ease-in-out;
 }
 #skills span:hover p{
-    color: whitesmoke;
+    opacity: 1;
 }
 
 
@@ -106,12 +109,17 @@ a{
     width: 100%;
     padding: 10% 0;
     color: whitesmoke;
-    opacity: .08;
     border-radius: 5px 5px 5px 5px;
-    transition: all 1400ms ease-in-out;
     margin: 3px 0;
 }
-#ach div:hover{
+#ach span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1400ms ease-in-out;
+    opacity: .08;
+}
+#ach div:hover span{
     transform: rotateY(360deg);
     opacity: 1;
 }
