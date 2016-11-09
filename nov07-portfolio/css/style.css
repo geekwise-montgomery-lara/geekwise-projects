@@ -1,8 +1,10 @@
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
     background-color: #161616;
     color: whitesmoke;
+    /*font-family: 'Secret Typewriter', arial;*/
     font-family: 'Roboto', sans-serif;
 }
 hr{
@@ -17,9 +19,13 @@ img{
     width: 350px;
     height: 263px;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 
-#face, #info{
+#face, #info, #ach, #contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,8 +48,31 @@ img{
 }
 
 
+#info{
+    position: relative;
+}
+#info:hover hr{
+    transform: rotate(380deg);
+}
+#info:hover hr:nth-of-type(2){
+    transform: rotate(-380deg);
+}
 #info p{
     width: 20%;
+}
+#info hr{
+    width: 60%;
+    position: absolute;
+    border: solid hsla(0, 0%, 20%, 0.81) 1px;
+    margin: 0;
+    left: 19%;
+    top: 50%;
+    transform: rotate(240deg);
+    transition: all 900ms ease-in-out;
+    z-index: -1;
+}
+#info hr:nth-of-type(2){
+    transform: rotate(-240deg);
 }
 
 
@@ -61,4 +90,85 @@ img{
 }
 #skills span:hover p{
     color: whitesmoke;
+}
+
+
+#ach{
+    justify-content: space-around;
+    /*background: -moz-radial-gradient(circle, whitesmoke, #161616);
+    background: radial-gradient(circle, whitesmoke, #161616);*/
+}
+#ach div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 10% 0;
+    color: whitesmoke;
+    opacity: .08;
+    border-radius: 5px 5px 5px 5px;
+    transition: all 1400ms ease-in-out;
+    margin: 3px 0;
+}
+#ach div:hover{
+    transform: rotateY(360deg);
+    opacity: 1;
+}
+#ach div p{
+    width: 50%;
+    font-size: 1.2em;
+    border: solid whitesmoke 3px;
+    padding: 1vw 4%;
+}
+
+
+#contact{
+    height: 10vh;
+    line-height: 30px;
+}
+#contact p{
+    margin: 10px;
+    line-height: 20px;
+}
+#contact .media{
+    font-size: 3em;
+}
+#contact .slash{
+    position: relative;
+}
+#contact .slash:hover hr{
+    width: 0px;
+}
+#contact hr{
+    margin: 0 auto;
+    width: 19vw;
+    border: solid whitesmoke 1px;
+    position: absolute;
+    top: 52%;
+    transition: all 900ms ease-in-out;
+}
+#contact hr.phone{
+    width: 8vw;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#snap{
+    display: flex;
+    width: 97vw;
+    height: 97vh;
+    justify-content: center;
+    align-items: center;
+}
+#snap img{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    width: 30vw;
+    height: auto;
 }
