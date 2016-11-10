@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
+    padding: 0;
+    margin: 0;
     background-color: #161616;
     color: whitesmoke;
     /*font-family: 'Secret Typewriter', arial;*/
@@ -37,7 +39,7 @@ a{
     font-size: 3.5em;
 }
 #face img{
-    width: 30vw;
+    min-width: 30vw;
     height: auto;
     border-radius: 100% 100%;
     opacity: 0;
@@ -150,15 +152,15 @@ a{
 }
 #contact hr{
     margin: 0 auto;
-    width: 19vw;
+    width: 97%;
     border: solid whitesmoke 1px;
     position: absolute;
     top: 52%;
     transition: all 900ms ease-in-out;
 }
-#contact hr.phone{
+/*#contact hr.phone{
     width: 8vw;
-}
+}*/
 
 footer{
     display: flex;
@@ -179,4 +181,37 @@ footer{
     filter: grayscale(0);
     width: 30vw;
     height: auto;
+}
+
+
+@media screen and (max-width: 990px) {
+    #face, #info, #ach, #contact {
+        width: 100%;
+    }
+    #ach, #skills{
+        display: inline;
+    }
+    #face h1{
+        text-align: center;
+    }
+    #info p {
+        width: 90%;
+    }
+    #info hr {
+        width: 100%;
+        left: -4%;
+    }
+    #skills div{
+        width: 100%;
+    }
+    #skills div p{
+        opacity: 1;
+    }
+    #ach div{
+        margin: 5px 0;
+    }
+    #ach span, #face img{
+        opacity: 1;
+        text-align: center;
+    }
 }
