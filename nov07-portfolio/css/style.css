@@ -179,8 +179,9 @@ footer{
 #snap img{
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
-    width: 30vw;
+    min-width: 30vw;
     height: auto;
+    margin: 0 auto;
 }
 
 
