@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: .8em;
+}
+body .container, .container2, .container3, .container4 {
+    display: flex;
+}
+body div div{
+    display: flex;
+    align-items: flex-end;
+    background-color: hsl(79, 35%, 54%);
+    width: calc(100% / 3);
+    height: calc(100vh / 2);
+    background-size: cover;
+    background-position: bottom;
+    letter-spacing: 0.1em;
+}
+body div div p{
+    margin: 4% 4%;
+}
+body:hover{
+    cursor: pointer;
+}
+
+.container div:nth-child(1){
+    background-image: url(../img/01.jpg);
+}
+.container div:nth-child(2){
+    background-image: url(../img/02.jpg);
+}
+.container div:nth-child(3){
+    background-image: url(../img/03.jpg);
+}
+.container2 div:nth-child(1){
+    background-image: url(../img/04.jpg);
+}
+.container2 div:nth-child(2){
+    background-image: url(../img/05.jpg);
+}
+.container2 div:nth-child(3){
+    background-image: url(../img/06.jpg);
+}
+.container3 div:nth-child(1){
+    background-image: url(../img/07.jpg);
+}
+.container3 div:nth-child(2){
+    background-image: url(../img/08.jpg);
+}
+.container3 div:nth-child(3){
+    background-image: url(../img/09.jpg);
+}
+.container4 div:nth-child(1){
+    background-image: url(../img/10.jpg);
+}
+.container4 div:nth-child(2){
+    background-image: url(../img/11.jpg);
+}
+.container4 div:nth-child(3){
+    background-image: url(../img/12.jpg);
+}
