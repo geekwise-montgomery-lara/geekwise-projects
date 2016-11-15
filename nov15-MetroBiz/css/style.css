@@ -1,0 +1,186 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header, #welcome, #learn, #vivamus, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    /*height: 70vh;*/
+}
+p{
+    line-height: 180%;
+}
+.button{
+    width: 30%;
+    padding: 14px 21px;
+    background-color: #BF1E4B;
+    cursor: pointer;
+    color: white;
+    margin: 0 auto;
+}
+
+
+header{
+    height: 473px;
+    background-color: #261300;
+    color: white;
+}
+header h1{
+    font-size: 3.5em;
+    margin: 0;
+}
+header h3{
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
+    margin: 0;
+    font-weight: normal;
+}
+header h3 span{
+    color: rgba(255,255,255,0.5);
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 4% 0;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+header nav ul li{
+    padding: 14px 21px;
+    display:flex;
+    flex-wrap: nowrap;
+    transition: all 300ms ease-in-out;
+}
+header nav ul li:hover{
+    background-color: #BF1E4B;
+    cursor: pointer;
+}
+
+
+#welcome{
+    height: 464px;
+    background-color: #DC572E;
+}
+h2{
+    font-size: 2.8em;
+    color: rgba(0,0,0,0.8);
+}
+#welcome p{
+    width: 64%;
+}
+
+
+section#learn{
+    height: 614px;
+    flex-direction: row;
+    align-items: baseline;
+}
+#learn .tool{
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0 3%;
+
+}
+#learn .tool i{
+    font-size: 4em;
+}
+#learn .tool h4, .tool p{
+    font-size: 1.60em;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #261300;
+}
+#learn .tool p{
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+#vivamus{
+    height: 614px;
+}
+#vivamus h1{
+    margin-bottom: 0;
+}
+#vivamus h6{
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #6F6F6F;
+    margin: 0;
+}
+#vivamus .container{
+    display: flex;
+    justify-content: space-around;
+}
+#vivamus .container .nibh{
+    padding: 4% 2%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#vivamus .container .nibh h6{
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: rgba(0,0,0,0.6);
+}
+#vivamus .container .nibh p{
+    font-size: 12pt;
+    font-weight: 100;
+    color: rgba(0,0,0,0.5);
+}
+#vivamus .button{
+    width: 60%;
+    padding: 1em 2em 1em 2em;
+    letter-spacing: 0.20em;
+    line-height: 1.8em;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+
+footer{
+    height: 432px;
+    background: #261300;
+}
+footer h3{
+    color: #261300;
+}
+footer h5{
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+footer hr{
+    height: 1px;
+    width: 95%;
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+    margin: 5% 0;
+}
+footer p{
+    letter-spacing: 0.20em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    color: rgba(255,255,255,0.3);
+}
