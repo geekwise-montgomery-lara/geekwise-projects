@@ -1,0 +1,88 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+  margin:0;
+  padding: 0;
+  max-width: 100vw;
+
+}
+
+
+.container video{
+    width: 100%;
+    position: absolute;
+    -webkit-filter: opacity(.7);
+    filter: opacity(.7);
+    z-index: -1;
+}
+.container h1, .container p, .container .button{
+    margin: 15px auto 0;
+    text-align: center;
+    color: #ff00ff;
+}
+.menu{
+  position:relative;
+  display: inline-block;
+  float:right;
+  background-color: rgba(4, 22, 37, 0.75);
+  color: #c0c5c9;
+  width: 100%;
+}
+.menu>p{
+  margin: 0;
+  z-index:10;
+  line-height:2;
+  width:100px;
+  float: right;
+  padding: 5px 0;
+}
+.menu i{
+  margin-right: 5px;
+}
+.menu>p:hover, nav{
+    color: whitesmoke;
+    cursor: pointer;
+}
+.menu:hover nav{
+  right:0;
+  top:0;
+  display: inline-block;
+  transition: all 300ms ease-in-out;
+}
+.menu nav{
+  position: absolute;
+  display: none;
+  right:-100%;
+  top:0;
+  text-align: left;
+  z-index:100;
+  background: #041625;
+  color:white;
+  width:10vw;
+  padding: 5px 10px;
+  height: 100vh;
+}
+.broadcast{
+  height: 90vh;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.broadcast>div{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  border:1px solid #ff00ff;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+
+#nam{
+    
+}
