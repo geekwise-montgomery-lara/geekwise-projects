@@ -6,7 +6,25 @@ body{
     padding: 0;
     background-color: hsl(289, 64%, 52%);
     font-family: 'Roboto', sans-serif;
+    color: #636363;
+    font-weight: lighter;
 }
+h2{
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+.button{
+    border: solid 1px #dddddd;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px 38px;
+    transition: all 300ms ease-in-out;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+
+
 header{
     padding: 5% 0;
     text-align: center;
@@ -20,7 +38,6 @@ header h1{
 header p{
     font-size: 1.25em;
     letter-spacing: -0.025em;
-    font-weight: lighter;
     color: rgba(255, 255, 255, 0.65);
 }
 
@@ -30,4 +47,125 @@ main{
     margin: auto;
     background-color: white;
     border-radius: 3px 3px 3px 3px;
+}
+
+
+#intro nav{
+    background-color: #f7f7f7;
+    border-radius: 3px 3px 3px 3px;
+    padding: 2% 0;
+}
+#intro nav ul{
+    width: 70%;
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+#intro nav ul li{
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 10px;
+}
+#intro nav ul li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#intro .container{
+    display: flex;
+    padding: 6% 4% 3%;
+}
+#intro .container article{
+    width: 70%;
+}
+#intro .container article p{
+    font-size: 100%;
+    margin-bottom: 5em;
+    width: 70%;
+}
+#intro .container article hr{
+    width: 143px;
+    height: 1px;
+    margin-left: 0;
+    background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    margin: 3em 0;
+    border: 0;
+}
+
+#intro .container aside img{
+    border-radius: 100%;
+    border: solid 1px #dddddd;
+    padding: 17px;
+}
+
+#stats{
+    text-align: center;
+    padding-bottom: 10%;
+}
+#stats hr{
+    width: 143px;
+    height: 1px;
+    margin-left: 0;
+    background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    margin: 3em auto;
+    border: 0;
+}
+#stats .graph{
+    display: flex;
+    border-radius: 3px 3px 3px 3px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+#stats .graph span{
+    width: calc(100% / 5);
+    color: white;
+    padding: 10px 0;
+
+}
+#stats .graph span i{
+    font-size: 2.5em;
+}
+#stats .graph span p:nth-of-type(1){
+    font-size: 2em;
+    margin: 10% 0;
+    line-height: 1.1;
+}
+#stats .graph .style1{
+    background-color: #efa8b0;
+    border-radius: 5px 0 0 5px;
+}
+#stats .graph .style2{
+    background-color: #c79cc8;
+}
+#stats .graph .style3{
+    background-color: #a89cc8;
+}
+#stats .graph .style4{
+    background-color: #9bb2e1;
+}
+#stats .graph .style5{
+    background-color: #8cc9f0;
+    border-radius: 0 5px 5px 0;
+}
+
+#stats .text{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+#stats .text p{
+    width: 48%;
+    line-height: 33px;
+}
+#stats .button{
+    margin: 10vh 0;
+}
+
+
+footer{
+    background
 }
