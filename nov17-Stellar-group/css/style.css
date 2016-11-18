@@ -346,9 +346,13 @@ footer p:last-child{
         border-radius: 0 0 3px 3px;
     }
     #stats .text{
-        padding: 0 1px;
+        padding: 0 7%;
         font-size: .8em;
         line-height: 10px;
+    }
+    #stats .text p{
+        width: 87%;
+        text-align: justify;
     }
     footer .container div ul{
         padding-left: 20%;
