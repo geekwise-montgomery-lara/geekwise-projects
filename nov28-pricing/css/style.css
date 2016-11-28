@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../img/poly.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*background-color: #f9264f;*/
+h2{
+    color: white;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: inherit;
+    background-color: #f9264f;
+    color: hsl(0, 0%, 96%);
+    font-weight: 600;
+    border-radius: 30px;
+    border: solid 2px white;
+}
+a.btn:hover{
+    color: gold;
+}
+section{
+    text-align: center;
+}
+section > ul{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+section > ul > li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 96%);
+    padding: 20px;
+}
+section > ul > li a{
+    margin-top: auto;
+}
+section > ul > li:nth-of-type(2){
+    background-color: #f9264f;
+    color: hsl(0, 0%, 96%);
+    transform: scale(1.15);
+}
