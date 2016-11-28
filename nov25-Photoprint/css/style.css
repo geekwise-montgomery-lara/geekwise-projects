@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.button{
+    background-color: #f9264f;
+    color: white;
+    transition: .4s all ease;
+    border-radius: 27px;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 9px 32px;
+}
+.button:hover{
+    color: #f5d038;
+    cursor: pointer;
+}
+
+
+header{
+    background-image: url(../img/home_slider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    color: white;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 1%;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+header nav ul li{
+    margin: 0 1px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 2% 2%;
+    font-size: 17px;
+    font-weight: 700;
+    height: 20px;
+    width: 80px;
+    line-height: 20px;
+    text-align: center;
+    transition: all .4s ease-in-out;
+}
+header nav ul li:hover{
+    cursor: pointer;
+    background-color: #f9264f;
+}
+header .container{
+    margin: 7% 9%;
+}
+header .container h1{
+    font-size: 130px;
+    margin: 3% 0;
+}
+header .container h2{
+    font-weight: 400;
+    font-size: 60px;
+}
+header .container p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+#mission{
+    height: 90vh;
+    background-color: #cd004f;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    padding: 15% 0;
+}
+#mission .ma{
+    display: flex;
+    margin: 0 auto;
+}
+#mission h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 100px;
+    font-weight: 700;
+}
+#mission .container{
+    width: 770px;
+    margin-right: 5%;;
+}
+#mission .container p:nth-of-type(1){
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+}
+#mission .container p:nth-of-type(2){
+    font-size: 24px;
+}
+#mission .container .button{
+    background-color: white;
+    color: #f9264f;
+}
+#mission .container .button:hover{
+    box-shadow: 0 0 16px rgba(255,255,255,0.8);
+}
+
+
+#services{
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+#services h2{
+    font-size: 60px;
+    text-align: center;
+}
+#services p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+}
+#services .ma{
+    margin: 0 auto;
+}
+#services .container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+#services .container div{
+    width: 390px;
+    height: 353px;
+    margin-right: 30px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+#services .container div span{
+    padding: 8px 38px;
+    color: white;
+    background-color: #1e1d23;
+    opacity: 0;
+    width: 100%;
+    transition: all .4s ease-in-out;
+}
+#services .container div:hover span{
+    opacity: 1;
+}
+#services .container1 div:nth-of-type(1){
+    background-image: url(../img/home_services_03.jpg);
+}
+#services .container1 div:nth-of-type(2){
+    background-image: url(../img/home_services_04.png);
+}
+#services .container1 div:nth-of-type(3){
+    background-image: url(../img/home_services_5.png);
+}
+#services .container2 div:nth-of-type(1){
+    background-image: url(../img/home_services_6.png);
+}
+#services .container2 div:nth-of-type(2){
+    background-image: url(../img/home_services_7.png);
+}
+#services .container2 div:nth-of-type(3){
+    background-image: url(../img/home_services_8.png);
+}
+#services .container3 div:nth-of-type(1){
+    background-image: url(../img/home_services_9.png);
+}
+#services .container3 div:nth-of-type(2){
+    background-image: url(../img/home_services_10.png);
+}
+#services .container3 div:nth-of-type(3){
+    background-image: url(../img/home_services_11.png);
+}
+
+
+#quality{
+    background-image: url(../img/pink.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 5% 0;
+}
+#quality h1{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+#quality h2{
+    font-size: 60px;
+    line-height: 0.7;
+    font-weight: 300;
+}
+#quality .button{
+    width: 130px;
+    transition: all .4s ease-in-out;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    margin: 0 auto;
+}
+#quality .button:hover{
+    box-shadow: 0 0 16px rgba(255,255,255,0.8);
+    cursor: pointer;
+}
+
+
+#format{
+    background-image: url(../img/poly.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 4% 0;
+}
+#format .button{
+    font-size: 14px;
+    padding: 10px 2px;
+}
+#format > h2{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+}
+#format .container{
+    display: flex;
+    margin: auto;
+}
+#format .container div{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 7%;
+    width: 25%;
+}
+#format .container div h2{
+    margin: 0;
+    font-weight: 700;
+    font-size: 34px;
+    color: #f9264f;
+}
+#format .container div p{
+    font-size: 17px;
+    margin: 10px;
+}
+#format .container div hr{
+    height: 1px;
+    border: none;
+    background-color: #d2d2d2;
+    opacity: 0.5;
+    margin: 0 auto;
+    width: 100%;
+}
+#format .container div p:nth-of-type(1){
+    margin-top: 30%;
+}
+#format .container div span:nth-of-type(1){
+    font-weight: 800;
+    font-size: 54px;
+}
+#format .container div.mat{
+    background-color: #f9264f;
+    color: white;
+}
+#format .container .mat h2{
+    color: white;
+}
+#format .container .mat .button{
+    border: solid 2px white;
+}
+
+
+#reviews{
+    height: 90vh;
+    text-align: center;
+}
+#reviews h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.23;
+}
+#reviews p:nth-of-type(1){
+    color: #f9264f;
+    font-size: 26px;
+    font-weight: 700;
+}
+#reviews p:nth-of-type(2){
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+
+#card{
+    background-image: url(../img/stripe.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 4% 0;
+}
+#card .button{
+    background-color: white;
+    color: black;
+}
+#card .button:hover{
+    box-shadow: 0 0 16px rgba(255,255,255,0.8);
+    cursor: pointer;
+}
+#card img{
+    width: 80%;
+}
+#card div h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+}
+#card div h1{
+    font-size: 130px;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+}
+#card div p{
+    font-size: 30px;
+    color: #fff;
+}
+
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4% 4%; 
+}
+#form .container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form .container img{
+    width: 87%;
+}
+#form .container div:nth-of-type(1) input{
+    border-radius: 10px 10px 10px 10px;
+    width: 91%;
+    border: solid 1px grey;
+    padding: 2% 4%;
+    margin: 2% 0;
+}
+#form .container div:nth-of-type(1) textarea{
+    width: 98%;
+    border-radius: 10px 10px 10px 10px
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f2b36;
+    padding: 4% 4%;
+}
+footer div{
+    flex: 6;
+    color: #aea8b9;
+    height: 55vh;
+}
+footer div i{
+    color: white;
+}
+footer div h5{
+    font-size: 34px;
+    color: WHITE;
+    margin-top: 0;
+}
+footer div:nth-of-type(4){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
