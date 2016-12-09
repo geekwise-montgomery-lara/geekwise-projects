@@ -1,23 +1,22 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
     padding: 0;
     margin: 0;
-    background-color: #c07325;
-    color: #a73e43;
+    background-color: #161616;
+    color: whitesmoke;
     /*font-family: 'Secret Typewriter', arial;*/
     font-family: 'Roboto', sans-serif;
 }
 hr{
     width: 80%;
     height: 0px;
-    border: solid #8b2d23 1px;
+    border: solid hsla(0, 0%, 20%, 0.71) 1px;
     margin: 5vw auto;
 }
 img{
-    -webkit-filter: saturate(2);
-    filter: saturate(2);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
     width: 350px;
     height: 263px;
 }
@@ -35,15 +34,12 @@ a{
     width: 98vw;
     height: 100vh;
 }
-section#face{
-    background-image: url(../img/monty.png);
-    background-size: 95% auto;
-    background-repeat: no-repeat;
-    width: 100%;
+#face{
+    background-image: url(../img/binary.jpg);
+    background-size: 100% auto;
 }
 #face h1{
     font-size: 3.5em;
-    opacity: 0;
 }
 #face img{
     min-width: 30vw;
@@ -69,12 +65,11 @@ section#face{
 #info p{
     width: 20%;
     font-size: .99em;
-    color: #8b2d23;
 }
 #info hr{
     width: 60%;
     position: absolute;
-    border: solid #a73e43 1px;
+    border: solid hsla(0, 0%, 20%, 0.81) 1px;
     margin: 0;
     left: 19%;
     top: 50%;
@@ -97,11 +92,12 @@ section#face{
     width: 40%;
 }
 #skills div p{
-    color: #8b2d23;
-    /*opacity: 0;*/
-    width: 350px;
-    margin: 2% auto;
+    color: whitesmoke;
+    opacity: 0;
     transition: all 900ms ease-in-out;
+    width: 350px;
+    margin: 5% auto;
+
 }
 #skills span:hover p{
     opacity: 1;
@@ -110,8 +106,8 @@ section#face{
 
 #ach{
     justify-content: space-around;
-    /*background: -moz-radial-gradient(circle, #a73e43, #161616);
-    background: radial-gradient(circle, #a73e43, #161616);*/
+    /*background: -moz-radial-gradient(circle, whitesmoke, #161616);
+    background: radial-gradient(circle, whitesmoke, #161616);*/
 }
 #ach div{
     display: flex;
@@ -120,7 +116,7 @@ section#face{
     position: relative;
     width: 100%;
     padding: 10% 0;
-    color: #a73e43;
+    color: whitesmoke;
     border-radius: 5px 5px 5px 5px;
     margin: 3px 0;
 }
@@ -130,10 +126,13 @@ section#face{
     align-items: center;
     transition: all 1400ms ease-in-out;
 }
+#ach div:hover span{
+    opacity: 1;
+}
 #ach div p{
     width: 50%;
     font-size: 1.2em;
-    border: solid #8b2d23 3px;
+    border: solid whitesmoke 3px;
     padding: 1vw 4%;
 }
 
@@ -145,7 +144,6 @@ section#face{
 #contact p{
     margin: 10px;
     line-height: 20px;
-    color: #8b2d23;
 }
 #contact .media{
     font-size: 3em;
@@ -159,7 +157,7 @@ section#face{
 #contact hr{
     margin: 0 auto;
     width: 97%;
-    border: solid #a73e43 1px;
+    border: solid whitesmoke 1px;
     position: absolute;
     top: 52%;
     transition: all 900ms ease-in-out;
@@ -220,11 +218,5 @@ footer{
     #ach span, #face img{
         opacity: 1;
         text-align: center;
-    }
-    #contact hr{
-        display: none;
-    }
-    .foot{
-        margin-top: 10%;
     }
 }
