@@ -35,7 +35,7 @@ a{
     height: 100vh;
 }
 #face{
-    background-image: url(../img/binary.jpg);
+    /*background-image: url(../img/binary.jpg);*/
     background-size: 100% auto;
 }
 #face h1{
@@ -137,6 +137,50 @@ a{
 }
 
 
+#exam{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#exam h2{
+    font-weight: normal;
+    font-size: 2.5em;
+}
+#exam .list ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+#exam .list ul li{
+    width: 15%;
+    height: 15%;
+    overflow: hidden;
+    margin: 0 2%;
+}
+#exam .list ul li img{
+    transition: all 300ms ease-in-out;
+    width: 100%;
+    height: auto;
+}
+#exam .list ul li:hover img{
+    transform: scale(1.5);
+}
+/*#exam .list ul li:nth-of-type(1){
+    ba
+}
+#exam .list ul li:nth-of-type(2){
+
+}
+#exam .list ul li:nth-of-type(3){
+
+}
+#exam .list ul li:nth-of-type(4){
+
+}
+*/
+
 #contact{
     height: 10vh;
     line-height: 30px;
@@ -217,6 +261,19 @@ footer{
     }
     #ach span, #face img{
         opacity: 1;
+        text-align: center;
+    }
+    #contact{
+        padding: 4% 0;
+    }
+    #contact hr{
+        display: none;
+    }
+    #snap{
+        height: 100%;
+        padding: 25% 0;
+    }
+    footer{
         text-align: center;
     }
 }
