@@ -1,0 +1,117 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    z-index: .5;
+    color: #727a82;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.button:hover{
+    cursor: pointer;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 4%;
+}
+header nav #fm{
+    position: absolute;
+    top: 0;
+    left: -500px;
+    z-index: 1;
+    background: #25a2c3;
+    height: 100vh;
+    position: fixed;
+    padding: 3% 2%;
+    width: 15%;
+    color: white;
+    transition:all 300ms ease-in-out;
+}
+header nav #fm.open{
+    left: 0px;
+}
+header nav #fm ul{
+    padding: 20px 0;
+}
+header nav #fm ul li:hover{
+    cursor: pointer;
+}
+header nav #fm i{
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}
+header nav #fm hr{
+    border: 0;
+    height: 1px;
+    background-color: white;
+}
+header nav a:nth-of-type(1){
+    font-family: 'Pacifico', cursive;
+    color: #f6755e;
+    font-size: 2.5em;
+}
+header nav a:nth-of-type(2){
+    padding: .5em 2em;
+    border: solid 1px #727a82;
+    border-radius: 2px 2px 2px 2px;
+}
+header nav i{
+    color: #dee1e3;
+    font-size: 2.5em;
+}
+header nav i:hover header nav #fm{
+    margin-right: -50%;
+}
+
+
+#hero{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+#hero h1{
+    font-size: 3em;
+    color: #25a2c3;
+    line-height: 1em;
+}
+#hero p{
+    font-size: 15px;
+    margin-bottom: 5%;
+    font-weight: lighter;
+    width: 43%;
+}
+#hero .button{
+    color: white;
+    background-color: #f6755e;
+    padding: 1em 3.5em;
+    border-radius: 4px 4px 4px 4px;
+}
