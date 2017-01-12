@@ -61,7 +61,7 @@ header nav #fm{
     padding: 3% 2%;
     width: 15%;
     color: white;
-    transition:all 30ms ease-in-out;
+    transition:all 300ms ease-in-out;
 }
 header nav #fm.open{
     left: 0px;
@@ -240,4 +240,77 @@ footer i{
 }
 footer .cr{
     font-size: .8em;
+}
+
+
+
+@media screen and (max-width : 750px)  {
+  header nav a:nth-of-type(2){
+      padding: .1em .4em;
+      border: solid 1px #727a82;
+      border-radius: 2px 2px 2px 2px;
+  }
+  header nav #fm{
+      width: 100%;
+      height: 25%;
+      padding-top: 0;
+      top: -500px;
+      left: 0;
+  }
+  header nav #fm.open{
+      top: 0px;
+  }
+  #fm-close{
+      margin-right: 5%;
+      font-size: 2em;
+  }
+  #hero p{
+      width: 85%;
+  }
+  #hero h1{
+      font-size: 2.5em;
+  }
+  #mobile{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+  }
+  #mobile div img{
+      display: none;
+  }
+  #mobile div div{
+      border: solid #dee1e3 1px;
+      width: 90%;
+      margin: 5% 5%;
+  }
+  #mobile > div:nth-of-type(1) {
+    text-align: center;
+  }
+  #mobile > div:nth-of-type(1) p.why {
+     margin-left: 7%;
+  }
+  #mobile > div p {
+     width: 85%;
+  }
+  #mobile .pt{
+      text-align: center;
+  }
+  #mobile .pt p{
+      margin-left: 5%;
+  }
+  #location{
+      display: flex;
+      flex-direction: column;
+  }
+  #location div{
+      width: 85%;
+      margin: 2% 0;
+      text-align: center;
+  }
+  footer div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 60%;
+  }
 }
