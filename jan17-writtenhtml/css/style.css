@@ -1,0 +1,163 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1F1F1
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.mobileb, .fm{
+    display: none;
+}
+header .button:hover{
+    cursor: pointer;
+}
+img{
+    height: auto;
+}
+.sh{
+    display: none;
+}
+aside h5, aside img:hover{
+    cursor: pointer;
+}
+
+aside, article .comment, article .hero{
+    box-shadow: 2px 3px 1px #888888;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2%;
+}
+header input{
+    width: 60%;
+    height: 30px;
+    font-size: 1em;
+    padding: 0 2%;
+}
+header .button{
+    border:solid #d3d3d3 1px;
+    background: #f8f8f8;
+    text-align: center;
+    padding: 8px 3%;
+    margin-left: 2%;
+}
+
+
+section{
+    display: flex;
+}
+
+article{
+    padding-left: 14%;
+    width: 53%;
+}
+article .hero{
+    margin-bottom: 9%;
+    background-color: white;
+    padding: 3% 2%;
+    width: 91%;
+}
+article .hero img{
+    width: 85%;
+}
+article .hero h1{
+    font-size: 1.3em;
+}
+
+
+article .comment{
+    background-color: white;
+    width: 95%;
+}
+article .comment div{
+    display: flex;
+    align-items: center;
+}
+article .comment img{
+    height: 48px;
+    width: 48px;
+    margin: 3%;
+}
+article .comment p{
+    width: 68%;
+}
+
+
+aside{
+    padding-right: 14%;
+    background-color: white;
+    padding: 2%;
+}
+aside h5{
+    margin-top: 2%;
+    font-size: .9em;
+}
+
+
+@media screen and (max-width : 1000px)  {
+    header{
+        justify-content: space-around;
+    }
+    header input{
+        width: 80%;
+    }
+    .mobileb{
+        display: block;
+        text-align: center;
+        color: #d3d3d3;
+        border:solid #d3d3d3 1px;
+        background: #f8f8f8;
+        padding: 6px 3%;
+    }
+    header .button{
+        display: none;
+    }
+    section{
+        display: block;
+    }
+    article{
+        width: 93%;
+        padding: 0 3%;
+    }
+    article .hero img{
+        width: 100%;
+    }
+    article .hero h1{
+        font-size: 1em;
+    }
+    article .comment img{
+        height: 48px;
+        width: 48px;
+        margin: 3%;
+    }
+    article .comment p{
+        width: 80%;
+    }
+    article .comment .see{
+        display: none;
+    }
+    article .comment .sh{
+        display: block;
+    }
+    aside{
+        width: 94%;
+        text-align: center;
+        padding: 0 3%;
+        margin-top: 8%;
+    }
+    aside img{
+        width: 100%;
+    }
+}
