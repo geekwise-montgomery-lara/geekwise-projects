@@ -1,0 +1,40 @@
+// $key-color: lime;
+// // $secondary-color: purple;
+// $tertiary-color: blue;
+
+//headline
+// $h1-size: 3em;
+// $h1-font: cursive;
+// $h1-color: red;
+
+// button styles
+$btn-color: hsl(0, 100%, 52%);
+// $btn-light: lighten( $btn-color, 10% );
+// $btn-dark: darken( $btn-color, 50% );
+//$btn-dark: darken( $btn-color, 50% );
+//$btn-lite: hsl(300, 50%, 92%);
+//$btn-dark:hsl(300, 50%, 70%);
+// $btn-color-2: lighten( invert( adjust-hue($btn-color, 50deg) ), 20%;
+
+// COLOR FUNCTIONS
+// lighten( 2 arguments );
+//darken ( 2 arguments );
+//invert( 1 argument );
+//complement ( 1 argument );
+
+
+
+$or-light: adjust-hue( $btn-color, -340deg);
+
+$ye-light: adjust-hue( $btn-color, -300deg);
+
+$gr-light: adjust-hue( $btn-color, -280deg);
+
+$bl-light: adjust-hue( $btn-color, -150deg);
+
+$pu-light: adjust-hue( $btn-color, -80deg);
+
+$id-light: adjust-hue( $btn-color, -40deg);
+
+$colors: $btn-color $or-light $ye-light $gr-light $bl-light $pu-light $id-light;
+$i: 1;

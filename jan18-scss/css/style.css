@@ -1,0 +1,20 @@
+div {
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 25px; }
+  div li {
+    list-style-type: none; }
+    div li:nth-child(1) {
+      background-color: #ff0a0a; }
+    div li:nth-child(2) {
+      background-color: #ff5c0a; }
+    div li:nth-child(3) {
+      background-color: #ffff0a; }
+    div li:nth-child(4) {
+      background-color: #adff0a; }
+    div li:nth-child(5) {
+      background-color: #0a85ff; }
+    div li:nth-child(6) {
+      background-color: #ad0aff; }
+    div li:nth-child(7) {
+      background-color: #ff0aad; }
