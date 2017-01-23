@@ -1,0 +1,72 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300");
+h1 {
+  border: solid lightgray 1px;
+  border-radius: 5px;
+}
+
+h1 {
+  background-color: purple;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: #3366cc;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  background-color: pink;
+  padding: 10px;
+  border: solid violet 1px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #cc9933;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+a.btn:last-of-type {
+  background-color: pink;
+}
+
+ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+ul:first-of-type li {
+  width: calc(100% / 5);
+}
+
+ul:first-of-type li .fa {
+  color: purple;
+}
+
+ul:nth-of-type(2) li {
+  width: calc(100% / 7);
+}
+
+ul:nth-of-type(2) li .fa {
+  color: lime;
+}
+
+/* Placeholder Selector */

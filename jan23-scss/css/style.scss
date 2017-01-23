@@ -1,0 +1,44 @@
+@import 'imports';
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    color: $primary-color;
+    @extend %border-style;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn{
+    display: inline-block;
+    background-color: pink;
+    padding: 10px;
+    // @extend %border-style;
+    @include border-style(violet);
+}
+.btn:hover{
+    text-decoration: none;
+}
+a.btn:last-of-type{
+    background-color: pink;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+ul:first-of-type li{
+    @include el-calc(5, purple);
+}
+ul:nth-of-type(2) li{
+    @include el-calc(7, lime);
+}
+
+
+/* Placeholder Selector */

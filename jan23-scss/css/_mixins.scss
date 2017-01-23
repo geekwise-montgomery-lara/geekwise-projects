@@ -1,0 +1,11 @@
+@mixin border-style($haley){
+    border: solid $haley 1px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px $secondary-color;
+}
+@mixin el-calc($el-num, $el-col){
+    width: calc(100% / #{$el-num});
+    .fa{
+        color: $el-col;
+    }
+}
