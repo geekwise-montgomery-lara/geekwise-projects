@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css");
+.btn {
+  color: #61d4e5;
+  border: solid #61d4e5 4px;
+  padding: 2% 3%;
+  display: inline;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.header h2 {
+  color: black;
+}
+
+.header hr {
+  border: none;
+  background-color: #61d4e5;
+  height: 2px;
+  width: 170px;
+  margin-left: 0;
+}
+
+#skills .icons, #pics .container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#skills .port, #pics .dolor {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: 50%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  padding: 1% 2%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body hr:nth-of-type(1) {
+  border: none;
+  background-color: #61d4e5;
+  height: 4px;
+}
+
+body hr {
+  border: none;
+  background-color: #7f8890;
+  height: 2px;
+  opacity: .3;
+  margin-top: 2%;
+}
+
+section {
+  margin-top: 6%;
+}
+
+div.intro {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #7f8890;
+}
+
+div.intro b {
+  color: balck;
+}
+
+div.intro .container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+#hero {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0;
+  width: 95%;
+}
+
+#hero p {
+  color: #7f8890;
+}
+
+#hero h1 {
+  font-size: 3.5em;
+  width: 51%;
+  margin-bottom: 4%;
+}
+
+#hero h5 {
+  font-size: 1em;
+  margin-bottom: 5%;
+}
+
+#hero p {
+  margin-bottom: 4%;
+}
+
+#hero aside {
+  width: 50%;
+}
+
+#skills .port {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#skills .port span {
+  font-size: 3.3em;
+  color: #61d4e5;
+  border: solid #7f8890 1px;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 162px;
+  height: 79px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 2% 5%;
+}
+
+#skills .port span i {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#skills .port p {
+  width: 90%;
+  color: #7f8890;
+}
+
+#pics .dolor {
+  padding: 2% 5%;
+  width: 40%;
+}
+
+#pics .dolor img {
+  width: 90%;
+  transition: all 200ms ease-in-out;
+}
+
+#pics .dolor div:nth-of-type(1) {
+  overflow: hidden;
+}
+
+#pics .dolor div:nth-of-type(1):hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#pics .dolor h5 {
+  font-size: 1.25em;
+}
+
+#pics .dolor p {
+  margin-bottom: 4%;
+  color: #7f8890;
+}
+
+#gen p {
+  color: #7f8890;
+  line-height: 30px;
+}
+
+#gen h1 {
+  font-size: 3.5em;
+}
+
+#gen img {
+  width: 90%;
+  height: auto;
+}
+
+#gen h2 {
+  font-size: 1.75em;
+}
+
+#gen hr {
+  margin: 5% 0;
+}
+
+#gen section {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  div.intro .container {
+    width: 30%;
+    font-size: 1.3em;
+  }
+  #skills .port span {
+    border: none;
+  }
+  #skills .icons {
+    display: block;
+  }
+  #skills .port {
+    width: 100%;
+  }
+  #hero {
+    display: block;
+  }
+  #hero img {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #hero img {
+    display: none;
+  }
+  #hero {
+    padding-bottom: 6%;
+  }
+  #skills .port {
+    display: block;
+  }
+  #skills .port span {
+    margin-left: -5%;
+  }
+  #pics .container {
+    display: block;
+  }
+  #pics .dolor {
+    width: 100%;
+    margin: 4% 0;
+    padding: 4% 0;
+  }
+}
