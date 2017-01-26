@@ -1,38 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css');
-
-$primary: hsla(188, 72%, 64%, 1);
-$secondary: hsla(206, 7%, 53%, 1);
-
-%btn-style{
-    color: $primary;
-    border: solid $primary 4px;
-    padding: 2% 3%;
-    display: inline;
-    border-radius: 5px 5px 5px 5px;
-}
-%btn-style:hover{
-    cursor: pointer;
-}
-%header h2{
-    color: black;
-}
-%header hr{
-    border: none;
-    background-color: $primary;
-    height: 2px;
-    width: 170px;
-    margin-left: 0;
-}
-%par{
-    display: flex;
-    flex-wrap: wrap;
-}
-%child{
-    flex: none;
-    width: 50%;
-}
-
+@import 'imports';
 
 html,body{
     margin: 0;
