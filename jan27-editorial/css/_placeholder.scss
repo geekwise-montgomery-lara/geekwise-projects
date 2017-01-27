@@ -1,0 +1,28 @@
+%btn-style{
+    color: $primary;
+    border: solid $primary 4px;
+    padding: 2% 3%;
+    display: inline;
+    border-radius: 5px 5px 5px 5px;
+}
+%btn-style:hover{
+    cursor: pointer;
+}
+%header h2{
+    color: black;
+}
+%header hr{
+    border: none;
+    background-color: $primary;
+    height: 2px;
+    width: 170px;
+    margin-left: 0;
+}
+%par{
+    display: flex;
+    flex-wrap: wrap;
+}
+%child{
+    flex: none;
+    width: 50%;
+}
