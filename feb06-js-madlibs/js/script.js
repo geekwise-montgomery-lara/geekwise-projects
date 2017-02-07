@@ -12,7 +12,7 @@ alert(userGender);
 var name = prompt('What is your name?');
 alert(name + '? What a weird name, you should probably get it changed...')
 
-var nameList = 'Kevin, David, Cobi, King Snuffles, Stan';
+var nameList = 'Kevin, David, Cobi, King Pickles, Stan';
 var truName = prompt('What name would you like because the one you had was utter garbage ' + nameList);
 alert(truName + ' , ah, thats better, now you need to answer a list of questions ok?')
 
