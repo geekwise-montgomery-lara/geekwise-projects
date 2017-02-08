@@ -43,12 +43,12 @@ var copyFruit = fruits.slice(1, 3);
 // console.log(copyFruit);
 // console.log(fruits);
 
-// function randomStudent(){
-//     var numStudents = students.length;
-//     var randStudent = Math.ceil(Math.random() * numStudents) - 1;
-//     alert(students[randStudent]);
-// }
-// randomStudent();
+function randomStudent(){
+    var numStudents = students.length;
+    var randStudent = Math.ceil(Math.random() * numStudents) - 1;
+    alert(students[randStudent]);
+}
+randomStudent();
 
 var classes = ['History'];
 console.log(classes);

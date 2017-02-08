@@ -2,14 +2,16 @@
 
 html, body{
     margin: 0;
-    padding: 0;
+    padding: 3% 0;
     background-color: #FFC31A;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
+    color: #79470a;
 }
 a{
     text-decoration: none;
@@ -48,12 +50,13 @@ li:hover{
 @media only screen and (max-width: 530px) {
     li{
         border: solid #E86518 5px;
-        margin: 10% 0;
+        margin: 12% 0;
     }
 }
 @media only screen and (max-width: 450px) {
     li{
         padding: 6% 0;
         font-size: 1.2em;
+        margin: 12% 0;
     }
 }
