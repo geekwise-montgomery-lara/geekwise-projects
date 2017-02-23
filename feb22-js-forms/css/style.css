@@ -1,0 +1,11 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(66, 78%, 56%);
+}
+form{
+    width: 24%;
+}
+input{
+    margin: 3%;
+}
