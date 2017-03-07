@@ -18,7 +18,8 @@
     padding: 16px;
     box-shadow: 6px 6px 16px hsla(0, 0%, 0%, .8);
     border-radius: 2px 2px 2px 2px;
-    font-family: sans-serif;;
+    font-family: sans-serif;
+    min-width: 25%;
 }
 #modal p{
     margin: 0 0 16px;
