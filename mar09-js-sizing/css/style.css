@@ -1,0 +1,58 @@
+html, body{
+    background-color: hsl(330, 84%, 62%);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#meter{
+    background-color: white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    box-shadow: 4px 4px 8px hsla(0, 0%, 0%, .7);
+    padding: 10px;
+    z-index: 4266446464654654;
+}
+#meter ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header{
+    height: 400px;
+    background-image: url('http://unsplash.it/1000/400?image=450');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section{
+    display: flex;
+    padding: 2% 4%;
+    margin: 3% 0;
+}
+section img{
+    width: 25%;
+    position: relative;
+    left: -110%;
+    transition: left 1000ms ease-in-out;
+}
+section.visible img{
+    left: 0;
+}
+section.colorIn{
+    background-color: lime;
+    transition: background-color 2000ms ease-in-out;
+}
+section.colorIns{
+    background-color: hsl(128, 100%, 68%);
+    transition: background-color 2000ms ease-in-out;
+}
+section.colorInss{
+    background-color: hsl(127, 100%, 73%);
+    transition: background-color 2000ms ease-in-out;
+}
+section:nth-of-type(2){
+    flex-direction: row-reverse;
+}

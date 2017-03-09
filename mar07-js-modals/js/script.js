@@ -1,22 +1,22 @@
 var what_is_the_meaning_of_life = 42;
 
 var form = document.querySelector('form');
-// console.log(form);
+console.log(form);
 
-// for(var i = 0; i < form.children.length; i++){
-//     console.log(form.children[i]);
-// }
-//
-// form.childNodes.forEach(function(e, i){
-//     // console.log(e);
-// });
-// console.log('Notification' in window);
-//
-// if( !('Notification' in window)){
-//     alert('Sorry, your browser is obsolite');
-// }else{
-//     console.log('Notifications are avaliable');
-// }
+for(var i = 0; i < form.children.length; i++){
+    console.log(form.children[i]);
+}
+
+form.childNodes.forEach(function(e, i){
+    // console.log(e);
+});
+console.log('Notification' in window);
+
+if( !('Notification' in window)){
+    alert('Sorry, your browser is obsolite');
+}else{
+    console.log('Notifications are avaliable');
+}
 console.log('childElementCount' in form);
 if(!'childElementCount' in form){
     for(var i = 0; i < form.children.length; i++){
@@ -39,7 +39,7 @@ formArr.push(form.hidden);
 console.log(formArr);
 
 /*---- First Code Today Below ----*/
-
+//
 // var content = document.getElementById('content');
 //
 // function createModal(type, msg){

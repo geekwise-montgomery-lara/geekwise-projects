@@ -1,0 +1,88 @@
+html, body{
+    background-color: hsl(185, 89%, 66%);
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: hsl(185, 89%, 50%);
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+nav.fixed{
+    transform: translateY(-100%);
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+nav.anim{
+    transition: transform 350ms ease-in-out;
+    transform: translateY(0%);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 40%;
+}
+ul a{
+    margin: 2% 4%;
+    background-color: lime;
+    padding: 2% 2%;
+    width: 10%;
+    border-radius: 2px 2px 2px 2px;
+    transition: all 300ms ease-in-out;
+}
+ul a:hover{
+    background-color: hsl(127, 64%, 57%);
+    cursor: pointer;
+    color: lime;
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    background-image: url('../img/thing.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+    background-color: hsl(221, 80%, 65%);
+    border-radius: 3px 3px 3px 3px;
+    width: auto;
+}
+section img{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    left: -100%;
+    transition: left 500ms ease-in-out;
+}
+section:nth-of-type(1).vis img{
+    left: 0%;
+}
+section:nth-of-type(2) img{
+    right: -100%;
+}
+section:nth-of-type(2).vis img{
+    right: -100%;
+}
+section:nth-of-type(3).vis img{
+    left: 0%;
+}
+section div{
+    width: 50%;
+}
+
+section:nth-of-type(2){
+    flex-direction: row-reverse;
+}
