@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body{
+html, body{
     padding: 0;
     margin: 0;
     background-color: #161616;
@@ -24,6 +24,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+body section{
+    overflow: hidden;
+}
 
 
 #face, #info, #ach, #contact{
@@ -34,6 +37,12 @@ a{
     width: 98vw;
     height: 100vh;
 }
+
+body section:nth-of-type(1){
+    text-align: center;
+    font-size: 2em;
+}
+
 #face{
     /*background-image: url(../img/binary.jpg);*/
     background-size: 100% auto;
@@ -65,6 +74,7 @@ a{
 #info p{
     width: 20%;
     font-size: .99em;
+    z-index: 2;
 }
 #info hr{
     width: 60%;
@@ -75,7 +85,7 @@ a{
     top: 50%;
     transform: rotate(240deg);
     transition: all 900ms ease-in-out;
-    z-index: -1;
+    z-index: 1;
 }
 #info hr:nth-of-type(2){
     transform: rotate(-240deg);
@@ -144,6 +154,7 @@ a{
     align-items: center;
     flex-direction: column;
     text-align: center;
+    width: 100%;
 }
 #exam h2{
     font-weight: normal;
@@ -151,8 +162,9 @@ a{
 }
 #exam .list ul{
     display: flex;
-    justify-content: center;
     list-style-type: none;
+    width: 100%;
+    justify-content: center;
 }
 #exam .list ul li{
     width: 15%;
@@ -166,7 +178,7 @@ a{
     height: auto;
 }
 #exam .list ul li:hover img{
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 #exam .longList{
     display: flex;
@@ -177,7 +189,8 @@ a{
     list-style-type: none;
     margin: 0 5%;
     padding: 0;
-    width: 20%;
+    width: 60%;
+    margin-left: 0;
 }
 #exam .longList ul a{
     padding: 4% 8%;
@@ -193,11 +206,27 @@ a{
     background-color: white;
     color: black;
 }
-
+#exam .longList .container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+#exam .longList .container h1{
+    text-decoration: underline;
+}
+#exam .longList .container div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 #contact{
     height: 10vh;
     line-height: 30px;
+    padding: 2% 0;
 }
 #contact p{
     margin: 10px;
@@ -205,6 +234,13 @@ a{
 }
 #contact .media{
     font-size: 3em;
+}
+#contact .media i{
+    transition: all 900ms ease-in-out;
+    border-radius: 10px 10px 10px 10px;
+}
+#contact .media i:hover{
+    box-shadow: 0 0 16px rgba(255,255,255,0.8);
 }
 #contact .slash{
     position: relative;
@@ -220,9 +256,6 @@ a{
     top: 52%;
     transition: all 900ms ease-in-out;
 }
-/*#contact hr.phone{
-    width: 8vw;
-}*/
 
 footer{
     display: flex;
@@ -244,6 +277,33 @@ footer{
     min-width: 30vw;
     height: auto;
     margin: 0 auto;
+}
+
+
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+#intro input{
+    background-color: inherit;
+    border: solid whitesmoke 3px;
+    color: whitesmoke;
+    margin: 2% 0;
+    padding: 8px 16px;
+    transition: box-shadow 500ms ease-in-out;
+}
+#intro input[type="text"]{
+    width: 20%;
+    text-align: center;
+}
+#intro input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 16px whitesmoke;
 }
 
 
@@ -277,16 +337,19 @@ footer{
         opacity: 1;
         text-align: center;
     }
+    #exam h2{
+        font-size: 1.9em;
+    }
     #exam .list ul{
         flex-direction: column;
         margin: 0 auto;
         padding: 0;
     }
     #exam .list ul li{
-        width: 100%;
+        width: 95%;
     }
     #contact{
-        padding: 4% 0;
+        padding: 7% 0;
     }
     #contact hr{
         display: none;
@@ -298,4 +361,14 @@ footer{
     footer{
         text-align: center;
     }
+    #intro input[type="text"]{
+        width: 50%;
+    }
+    #exam .longList, #exam .longList .container{
+        flex-direction: column;
+    }
+    #exam .longList .container ul{
+        margin-left: 0;
+    }
+
 }
