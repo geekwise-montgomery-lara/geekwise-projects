@@ -51,7 +51,7 @@ body section:nth-of-type(1){
     font-size: 3.5em;
 }
 #face img{
-    min-width: 30vw;
+    min-width: 20vw;
     height: auto;
     border-radius: 100% 100%;
     opacity: 0;
