@@ -103,7 +103,7 @@ body section:nth-of-type(1){
 }
 #skills div p{
     color: whitesmoke;
-    opacity: 0;
+    opacity: .5;
     transition: all 900ms ease-in-out;
     width: 350px;
     margin: 5% auto;

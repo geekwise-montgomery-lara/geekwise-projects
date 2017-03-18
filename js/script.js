@@ -11,7 +11,7 @@ btn.addEventListener('click', function(evt){
     if(userName.trim() === ''){
         h1.textContent = 'Please, type your name.';
     }else{
-        // window.location.href='/home.html';
-        window.location.href='https://cdn.rawgit.com/geekwise-montgomery-lara/geekwise-projects/a0150981/home.html';
+        window.location.href='/home.html';
+        // window.location.href='https://cdn.rawgit.com/geekwise-montgomery-lara/geekwise-projects/a0150981/home.html';
     }
 });
