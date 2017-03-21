@@ -19,7 +19,7 @@ const CLIENT_ID = '';
 const CLIENT_SECRET = '';
 
 var main = document.querySelector('main'),
-    img, h1, req, githubObj;
+    img, h1, req, githubObj, p, input, btn;
 
 // req.onprogress = function(){
 //
@@ -41,9 +41,9 @@ function getReq(){
 
       // img = document.createElement('img');
       // h1 = document.createElement('h1');
-      // var githubObj = JSON.parse(req.responseText);
+      var githubObj = JSON.parse(req.responseText);
       // // console.log('DONE', req.readyState);
-      // // console.log(githubObj);
+      console.log(githubObj);
       //// console.log(githubObj.avatar_url);
       // img.src = githubObj.avatar_url;
       // h1.textContent = githubObj.login;
@@ -51,6 +51,21 @@ function getReq(){
   }
   req.send(null);
 }
+
+btn.addEventListener('click', function(){
+    var btn = document.querySelector('button');
+
+    req = new XMLHttpRequest();
+
+    p = document.querySelector('div p');
+    input = document.querySelector('section button')
+
+    req.open('GET', ROOT_URL +  'users/' + input + '?client_id=' + CLIENT_ID + '&client_secret=' + CLIENT_SECRET);
+    req.onload = function(){
+        p.textContent = githubObj.id;
+    }
+
+});
 
 (function(){
     getReq();
