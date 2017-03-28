@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 20%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    background-color: hsl(0, 0%, 10%);
+    padding: 16px 16px;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    color: cornsilk;
+    min-width: 300px;
+}
+div p{
+    font-weight: 100;
+}
+div button{
+    background-color: hsl(0, 0%, 20%);
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 2px;
+    transition: all 500ms ease-in-out;
+}
+div button:hover{
+    background-color: hsl(0, 0%, 30%);
+    cursor: pointer;
+}
