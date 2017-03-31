@@ -1,0 +1,22 @@
+html, body{
+    background-color: hsl(206, 89%, 69%);
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ul li{
+    width: 400px;
+    margin: 10px;
+}
+ul li img{
+    width: 100%;
+}
