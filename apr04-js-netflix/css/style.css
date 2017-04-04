@@ -1,0 +1,46 @@
+html, body{
+    background-color: hsl(168, 83%, 56%);
+    margin: 0;
+    padding: 0;
+}
+
+main section{
+
+}
+
+section ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section li{
+    width: 250px;
+    margin: 25px 2px;
+    transition: transform 300ms ease-in-out;
+    position: relative;
+}
+section li div{
+    opacity: 0;
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    bottom: 0;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, .75);
+    transition: opacity 300ms ease-in-out;
+
+}
+section li:hover div{
+    opacity: 1;
+    cursor: pointer;
+}
+section li img{
+    width: 100%;
+    float: left;
+    height: 375px;
+}
+section li:hover{
+    transform: scale(1.2);
+}
